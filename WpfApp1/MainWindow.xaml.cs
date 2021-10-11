@@ -130,9 +130,9 @@ namespace WpfApp1
         {
             if( OnlyYelow.IsChecked == true)
             {
-                Zi = true;
-                N = true;
-                C = true;
+                Zi = false;
+                N = false;
+                C = false;
                 BlokujCzerwone(C);
                 BlokujZielone(Zi);
                 BlokujNiebieskie(N);
