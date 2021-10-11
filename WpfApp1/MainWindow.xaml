@@ -32,6 +32,7 @@
         <CheckBox x:Name="OnlyYelow" Content="Tylko zolte" HorizontalAlignment="Left" Margin="212,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.362,0.165" Width="83" Checked="OnlyYelow_Checked" Click="OnlyYelow_Checked"/>
         <CheckBox x:Name="OnlyBlue" Content="Tylko niebieskie" HorizontalAlignment="Left" Margin="300,199,0,0" VerticalAlignment="Top" Width="112" Checked="OnlyBlue_Checked" Click="OnlyBlue_Checked"/>
         <CheckBox x:Name="OnlyRed" Content="Tylko czerwone" HorizontalAlignment="Left" Margin="432,202,0,0" VerticalAlignment="Top" Width="110" Checked="OnlyRed_Checked" Click="OnlyRed_Checked"/>
+        <Button Content="Wypisz" HorizontalAlignment="Left" Margin="138,301,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>

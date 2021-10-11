@@ -377,5 +377,13 @@ namespace WpfApp1
         }
 
         // ----->
+
+        // Wypisanie -->
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        //
     }
 }
