@@ -114,6 +114,9 @@ namespace WpfApp1
                 BlokujNiebieskie(N);
                 BlokujCzerwone(C);
                 BlokujZolte(Zu);
+                CzyscCzerwony();
+                CzyscNiebiski();
+                CzyscZolty();
             }
             else if( OnlyGreen.IsChecked == false)
             {
@@ -136,6 +139,9 @@ namespace WpfApp1
                 BlokujCzerwone(C);
                 BlokujZielone(Zi);
                 BlokujNiebieskie(N);
+                CzyscCzerwony();
+                CzyscNiebiski();
+                CzyscZielony();
             }
             else if(OnlyYelow.IsChecked == false)
             {
@@ -150,12 +156,52 @@ namespace WpfApp1
 
         private void OnlyBlue_Checked(object sender, RoutedEventArgs e)
         {
-
+            if (OnlyBlue.IsChecked == true)
+            {
+                Zi = false;
+                Zu = false;
+                C = false;
+                BlokujCzerwone(C);
+                BlokujZielone(Zi);
+                BlokujZolte(Zu);
+                CzyscCzerwony();
+                CzyscZolty();
+                CzyscZielony();
+            }
+            else if (OnlyBlue.IsChecked == false)
+            {
+                Zi = true;
+                Zu = true;
+                C = true;
+                BlokujCzerwone(C);
+                BlokujZielone(Zi);
+                BlokujZolte(Zu);
+            }
         }
 
         private void OnlyRed_Checked(object sender, RoutedEventArgs e)
         {
-
+            if (OnlyRed.IsChecked == true)
+            {
+                Zi = false;
+                N = false;
+                Zu = false;
+                BlokujZolte(Zu);
+                BlokujZielone(Zi);
+                BlokujNiebieskie(N);
+                CzyscZolty();
+                CzyscNiebiski();
+                CzyscZielony();
+            }
+            else if (OnlyRed.IsChecked == false)
+            {
+                Zi = true;
+                N = true;
+                Zu = true;
+                BlokujZolte(Zu);
+                BlokujZielone(Zi);
+                BlokujNiebieskie(N);
+            }
         }
 
         // Funkcje blokujace
@@ -291,6 +337,43 @@ namespace WpfApp1
             Czerwony2.IsEnabled = C;
             Czerwony3.IsEnabled = C;
             Czerwony4.IsEnabled = C;
+        }
+
+        // ----->
+
+        // Fukcje Czyszczenia -->
+
+        private void CzyscNiebiski()
+        {
+            WszystkieNiebieskie.IsChecked = false;
+            Niebieski1.IsChecked = false;
+            Niebieski2.IsChecked = false;
+            Niebieski3.IsChecked = false;
+            Niebieski4.IsChecked = false;
+        }
+        private void CzyscZolty()
+        {
+            WszystkieZolte.IsChecked = false;
+            Zolty1.IsChecked = false;
+            Zolty2.IsChecked = false;
+            Zolty3.IsChecked = false;
+            Zolty4.IsChecked = false;
+        }
+        private void CzyscCzerwony()
+        {
+            Wszystkieczerwone.IsChecked = false;
+            Czerwony1.IsChecked = false;
+            Czerwony2.IsChecked = false;
+            Czerwony3.IsChecked = false;
+            Czerwony4.IsChecked = false;
+        }
+        private void CzyscZielony()
+        {
+            WszystkieZielone.IsChecked = false;
+            Zielony1.IsChecked = false;
+            Zielony2.IsChecked = false;
+            Zielony3.IsChecked = false;
+            Zielony4.IsChecked = false;
         }
 
         // ----->
