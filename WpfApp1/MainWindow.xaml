@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <CheckBox x:Name="WszystkieZielone" Content="All zeilone" HorizontalAlignment="Left" Height="13" Margin="76,70,0,0" VerticalAlignment="Top" Width="88" Checked="zaznaczZielone" Click="zaznaczZielone"/>
+        <CheckBox x:Name="Zielony1" Content="CheckBox" HorizontalAlignment="Left" Margin="76,88,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony2" Content="CheckBox" HorizontalAlignment="Left" Margin="76,108,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony3" Content="CheckBox" HorizontalAlignment="Left" Margin="76,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony4" Content="CheckBox" HorizontalAlignment="Left" Margin="76,148,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="WszystkieZolte" Content="All zolte" HorizontalAlignment="Left" Height="13" Margin="186,73,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty1" Content="CheckBox" HorizontalAlignment="Left" Margin="186,91,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty2" Content="CheckBox" HorizontalAlignment="Left" Margin="186,111,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty3" Content="CheckBox" HorizontalAlignment="Left" Margin="186,131,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty4" Content="CheckBox" HorizontalAlignment="Left" Margin="186,151,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="WszystkieNiebieskie" Content="Wszyskie NIebieskie" HorizontalAlignment="Left" Height="13" Margin="300,76,0,0" VerticalAlignment="Top" Width="136"/>
+        <CheckBox x:Name="Niebieski1" Content="CheckBox" HorizontalAlignment="Left" Margin="300,94,0,0" VerticalAlignment="Top" Width="88" RenderTransformOrigin="1.163,0.832"/>
+        <CheckBox x:Name="Niebieski2" Content="CheckBox" HorizontalAlignment="Left" Margin="300,112,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Niebieski3" Content="CheckBox" HorizontalAlignment="Left" Margin="300,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Niebieski4" Content="CheckBox" HorizontalAlignment="Left" Margin="300,148,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Wszystkieczerwone" Content="Wszystie czerwone" HorizontalAlignment="Left" Height="13" Margin="441,74,0,0" VerticalAlignment="Top" Width="124"/>
+        <CheckBox x:Name="Czerwony1" Content="CheckBox" HorizontalAlignment="Left" Margin="441,88,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony2" Content="CheckBox" HorizontalAlignment="Left" Margin="441,104,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony3" Content="CheckBox" HorizontalAlignment="Left" Margin="441,120,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony4" Content="CheckBox" HorizontalAlignment="Left" Margin="441,139,0,0" VerticalAlignment="Top" Width="88"/>
+
+    </Grid>
+</Window>
