@@ -29,7 +29,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        // Zaznaczanie wszystkich
+        // Zaznaczanie wszystkich -->
         private void zaznaczZielone(object sender, RoutedEventArgs e)
         {
             if (WszystkieZielone.IsChecked == true){
@@ -102,7 +102,7 @@ namespace WpfApp1
 
         // ----->
 
-        // Blokaza zaznaczania
+        // Blokaza zaznaczania -->
 
         private void OnlyGreen_Checked(object sender, RoutedEventArgs e)
         {
@@ -204,7 +204,7 @@ namespace WpfApp1
             }
         }
 
-        // Funkcje blokujace
+        // Funkcje blokujace -->
 
         private void BlokujNiebieskie(bool N)
         {
