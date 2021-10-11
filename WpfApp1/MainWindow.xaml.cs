@@ -137,7 +137,15 @@ namespace WpfApp1
                 BlokujZielone(Zi);
                 BlokujNiebieskie(N);
             }
-            else if()
+            else if(OnlyYelow.IsChecked == false)
+            {
+                Zi = true;
+                N = true;
+                C = true;
+                BlokujCzerwone(C);
+                BlokujZielone(Zi);
+                BlokujNiebieskie(N);
+            }
         }
 
         private void OnlyBlue_Checked(object sender, RoutedEventArgs e)
