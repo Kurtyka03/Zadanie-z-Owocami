@@ -8,25 +8,30 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <CheckBox x:Name="WszystkieZielone" Content="All zeilone" HorizontalAlignment="Left" Height="13" Margin="76,70,0,0" VerticalAlignment="Top" Width="88" Checked="zaznaczZielone" Click="zaznaczZielone"/>
-        <CheckBox x:Name="Zielony1" Content="CheckBox" HorizontalAlignment="Left" Margin="76,88,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zielony2" Content="CheckBox" HorizontalAlignment="Left" Margin="76,108,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zielony3" Content="CheckBox" HorizontalAlignment="Left" Margin="76,128,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zielony4" Content="CheckBox" HorizontalAlignment="Left" Margin="76,148,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="WszystkieZolte" Content="All zolte" HorizontalAlignment="Left" Height="13" Margin="186,73,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zolty1" Content="CheckBox" HorizontalAlignment="Left" Margin="186,91,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zolty2" Content="CheckBox" HorizontalAlignment="Left" Margin="186,111,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zolty3" Content="CheckBox" HorizontalAlignment="Left" Margin="186,131,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Zolty4" Content="CheckBox" HorizontalAlignment="Left" Margin="186,151,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="WszystkieNiebieskie" Content="Wszyskie NIebieskie" HorizontalAlignment="Left" Height="13" Margin="300,76,0,0" VerticalAlignment="Top" Width="136"/>
-        <CheckBox x:Name="Niebieski1" Content="CheckBox" HorizontalAlignment="Left" Margin="300,94,0,0" VerticalAlignment="Top" Width="88" RenderTransformOrigin="1.163,0.832"/>
-        <CheckBox x:Name="Niebieski2" Content="CheckBox" HorizontalAlignment="Left" Margin="300,112,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Niebieski3" Content="CheckBox" HorizontalAlignment="Left" Margin="300,128,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Niebieski4" Content="CheckBox" HorizontalAlignment="Left" Margin="300,148,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Wszystkieczerwone" Content="Wszystie czerwone" HorizontalAlignment="Left" Height="13" Margin="441,74,0,0" VerticalAlignment="Top" Width="124"/>
-        <CheckBox x:Name="Czerwony1" Content="CheckBox" HorizontalAlignment="Left" Margin="441,88,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Czerwony2" Content="CheckBox" HorizontalAlignment="Left" Margin="441,104,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Czerwony3" Content="CheckBox" HorizontalAlignment="Left" Margin="441,120,0,0" VerticalAlignment="Top" Width="88"/>
-        <CheckBox x:Name="Czerwony4" Content="CheckBox" HorizontalAlignment="Left" Margin="441,139,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony1" Content="Kiwi" HorizontalAlignment="Left" Margin="76,88,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony2" Content="Gruszka" HorizontalAlignment="Left" Margin="76,108,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony3" Content="Limonka" HorizontalAlignment="Left" Margin="76,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zielony4" Content="Agrest" HorizontalAlignment="Left" Margin="76,148,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="WszystkieZolte" Content="All zolte" HorizontalAlignment="Left" Height="13" Margin="186,73,0,0" VerticalAlignment="Top" Width="88" Checked="zaznaczzolte" Click="zaznaczzolte"/>
+        <CheckBox x:Name="Zolty1" Content="Cytryna" HorizontalAlignment="Left" Margin="186,91,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty2" Content="Banan" HorizontalAlignment="Left" Margin="186,111,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty3" Content="Mango" HorizontalAlignment="Left" Margin="186,131,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Zolty4" Content="Melon" HorizontalAlignment="Left" Margin="186,151,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="WszystkieNiebieskie" Content="Wszyskie NIebieskie" HorizontalAlignment="Left" Height="13" Margin="300,76,0,0" VerticalAlignment="Top" Width="136" Checked="zaznaczNiebieskie" Click="zaznaczNiebieskie"/>
+        <CheckBox x:Name="Niebieski1" Content="Śliwka" HorizontalAlignment="Left" Margin="300,94,0,0" VerticalAlignment="Top" Width="88" RenderTransformOrigin="1.163,0.832"/>
+        <CheckBox x:Name="Niebieski2" Content="Borowka" HorizontalAlignment="Left" Margin="300,112,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Niebieski3" Content="Jagoda" HorizontalAlignment="Left" Margin="300,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Niebieski4" Content="Jezyna" HorizontalAlignment="Left" Margin="300,148,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Wszystkieczerwone" Content="Wszystie czerwone" HorizontalAlignment="Left" Height="13" Margin="441,74,0,0" VerticalAlignment="Top" Width="124" Checked="zaznaczCzerwone" Click="zaznaczCzerwone"/>
+        <CheckBox x:Name="Czerwony1" Content="Jablko" HorizontalAlignment="Left" Margin="441,88,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony2" Content="Truskawka" HorizontalAlignment="Left" Margin="441,104,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony3" Content="Malina" HorizontalAlignment="Left" Margin="441,120,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox x:Name="Czerwony4" Content="Arbuz" HorizontalAlignment="Left" Margin="441,139,0,0" VerticalAlignment="Top" Width="88"/>
+        <TextBox HorizontalAlignment="Left" Margin="76,237,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="673"/>
+        <CheckBox x:Name="OnlyGreen" Content="Jedynie zoelone" HorizontalAlignment="Left" Margin="65,199,0,0" VerticalAlignment="Top" Width="110" Checked="OnlyGreen_Checked" Click="OnlyGreen_Checked"/>
+        <CheckBox x:Name="OnlyYelow" Content="Tylko zolte" HorizontalAlignment="Left" Margin="212,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.362,0.165" Width="83" Checked="OnlyYelow_Checked" Click="OnlyYelow_Checked"/>
+        <CheckBox x:Name="OnlyBlue" Content="Tylko niebieskie" HorizontalAlignment="Left" Margin="300,199,0,0" VerticalAlignment="Top" Width="112" Checked="OnlyBlue_Checked" Click="OnlyBlue_Checked"/>
+        <CheckBox x:Name="OnlyRed" Content="Tylko czerwone" HorizontalAlignment="Left" Margin="432,202,0,0" VerticalAlignment="Top" Width="110" Checked="OnlyRed_Checked" Click="OnlyRed_Checked"/>
 
     </Grid>
 </Window>
